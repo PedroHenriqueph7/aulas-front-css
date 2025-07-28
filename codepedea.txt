@@ -1,0 +1,124 @@
+Na programação, a Semântica se refere ao
+significado de um trecho de código,
+exemplo: Que finalidade ou função esse
+elemento HTML tem" (em vez de "como ele
+se parece?").
+
+<!-- Estruturas Semânticas da Web -->
+
+    <header> <!-- Conteúdo semântico de cabeçalho -->
+    <nav> <!-- Conteúdo semântico de navegação -->
+    <main> <!-- Conteúdo semântico principal -->
+    <section> <!-- Conteúdo semântico de seção -->
+    <article> <!-- Conteúdo semântico de artigos -->
+    <aside> <!-- Conteúdo semântico lateral -->
+    <footer> <!-- Conteúdo semântico Rodapé -->
+
+
+Família Inline(Em linha) e Block(em bloco)
+
+    Essa divisão influencia diretamente a
+    forma como os elementos são exibidos e
+    organizados na estrutura da página.
+
+    Elementos block ocupam toda a
+    largura disponível e sempre
+    começam em uma nova linha. 
+
+    Elementos inline ocupam apenas o
+    espaço necessário ao seu conteúdo.
+
+{Display}
+
+    block: Ocupa toda a linha. Permite
+    largura, altura, margem e padding.
+
+
+    inline: Fica na mesma linha dos outros.
+    Não aceita largura/altura.
+
+
+    inline-block: Fica em linha, mas aceita
+    largura e altura.
+
+
+    none: Esconde o elemento da página
+    (como se não existisse).
+
+
+    flex: Organiza os elementos filhos em
+    linhas ou colunas com layout flexível.
+
+
+    grid: Cria layouts em grade (linhas e
+    colunas).
+
+Tamanho
+
+    width: define a largura do elemento.
+    height: define a altura do elemento.
+
+
+    px (pixels – valor fixo)
+    % (porcentagem do elemento pai)
+    vw/vh (largura/altura da tela)
+    em/rem (relativas ao tamanho da fonte)
+
+
+    Só funcionam em elementos com display:
+    block, inline-block, flex, grid etc.
+
+
+    vw (viewport width): representa 1% da largura da tela
+    (janela do navegador).
+
+    Ex: width: 50vw; → ocupa 50% da largura da tela.
+
+
+    em: unidade relativa ao tamanho
+    da fonte do elemento pai.
+    Ex: se o pai tem font-size:
+    16px;, então 1em = 16px.
+
+
+    rem (root em): relativa ao tamanho
+    da fonte do elemento raiz (html).
+    Ex: se o html tem font-size: 16px;,
+    então 1rem = 16px, sempre.
+
+Margem e espaçamento
+
+    padding: Espaço interno do elemento (entre o
+    conteúdo e a borda).
+
+
+    margin: Espaço externo do elemento (afasta
+    dos outros ao redor).
+
+
+    Ordem: Topo  direita  baixo  esquerda. 
+
+    Ordem 2: Topo/Baixo Direita/Esquerda.
+
+
+    auto significa que o navegador vai calcular o
+    valor automaticamente, com base no contexto.
+
+    auto nas laterais → centraliza o elemento se
+    ele tiver largura definida;
+
+    Em height: auto; ou width: auto;, o navegador
+    calcula o tamanho com base no conteúdo.
+
+Class e ID
+
+    As atribuições class e id servem para identificar
+    elementos HTML e permitir que sejam estilizados com
+    CSS ou manipulados com JavaScript.
+
+    class: usada para agrupar vários
+    elementos com o mesmo estilo.
+
+
+    id: usada para identificar um único
+    elemento de forma única na página.

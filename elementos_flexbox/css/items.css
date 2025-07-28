@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    height: 70vh;
+}
+div {
+    width: 100px;
+    height: 150px;
+    margin: 10px;
+}
+
+#bloco1 {
+    background-color: red;
+}
+
+#bloco2 {
+    background-color: green;
+}
+
+#bloco3 {
+    background-color: blue;
+}

@@ -1,5 +1,5 @@
 * {
-    margin: 0%;
+    margin: px;
     padding: 0%;
 }
 
@@ -39,7 +39,7 @@ section {
 
 article {
     margin: 5px;
-    display: flex;
+    display: block;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -62,16 +62,21 @@ article {
 
 aside {
    padding: 10px;
-   width: 20%;
+   width: 25%;
    display: flex;
    flex-direction: row;
    background-color: blueviolet;
-   justify-content: end;
-   align-items: end;
+   justify-content: flex-end;
    
 }
 
+.lateral {
+   background-color: blueviolet;
+}
+
 main {
+    display: flex;
+    justify-content: space-between;
     background-color: bisque;
 }
 

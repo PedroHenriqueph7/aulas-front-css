@@ -1,0 +1,49 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#conteudo_principal {
+    padding: 40px;
+    align-items: center;
+}
+#section_nivel_danoninho {
+    background-color: beige;
+    padding: 80px;
+}
+
+#cabecalho_secundario {
+    height: 40px;
+    background-color: brown;
+}
+
+#conteudo_principal_section {
+    display: flex;
+    background-color: rgb(253, 253, 253);
+    padding: 10px 0px;
+    align-items: center;
+}
+.divs_nivel_danoninho {
+    
+    
+    height: 600px;
+    background-color:brown;
+    margin: 0px 0px 0px 0px;
+}
+
+#bloco_generico_1 {
+    margin-right: 10px;
+    width: 75vw;
+}
+
+#bloco_generico_2 {
+    width: 25vw;
+}
+
+#rodape_secundario {
+    height: 40px;
+    background-color: brown;
+}
+
+
