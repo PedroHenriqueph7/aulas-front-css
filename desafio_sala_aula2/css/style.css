@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+    padding: 30px;
+    background-color: #fff;
+}
+article {
+    background-color: #00d8ff;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+}
+
+.cabecalho {
+    width: 90%;
+    height: 40px;
+    background-color: #00d8ff;
+}
