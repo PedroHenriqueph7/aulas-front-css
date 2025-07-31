@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#nivel_agua {
+    background-color: bisque;
+    height: 100vh;
+    padding: 10px;
+
+    /*FlexeBox - Propriedades de estruturação do layout pelo pai*/
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    
+}
+
+.bloco_generico {
+
+    background-color: rgb(21, 99, 2);
+    width: 200px;
+    height: 840px;
+    flex: 2 0 200px;
+
+}
+
+#caixa_direita {
+    /*FlexBox - propriedades de alteração de layout pelo filho*/
+    /*grow/  shrink/ basis*/
+    
+}
+
+/*Nivel Suco*/
+
+#cabecalho {
+    background-color: rgb(21, 99, 2);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#logo {
+    background-color: blue;
+    width: 90px;
+    height: 60px;
+}
+
+#menu_principal {
+    
+    background-color: beige;
+    padding: 5px;
+    text-decoration: none;
+
+}
+
+#menu_pincipal, ul {
+    display: flex;
+    gap: 10px;
+    
+}
+li {
+    background-color: blue;
+    width: 80px;
+    height: 60px;
+    
+}
