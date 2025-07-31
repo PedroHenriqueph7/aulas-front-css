@@ -22,22 +22,30 @@
     display: flex;
     background-color: rgb(253, 253, 253);
     padding: 10px 0px;
-    align-items: center;
+   
 }
-.divs_nivel_danoninho {
-    
-    
-    height: 600px;
+.estruturas_semanticas_secundaria {
     background-color:brown;
-    margin: 0px 0px 0px 0px;
 }
 
-#bloco_generico_1 {
-    margin-right: 10px;
+.article_nivel_cafe {
+    width: 220px;
+    height: 300px;
+    background-color: rgb(82, 0, 0);
+    margin: 10px;
+}
+#section_nivel_cafe {
+    order: 1;
+    margin-left: 10px;
     width: 75vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
-#bloco_generico_2 {
+#aside_nivel_cafe {
     width: 25vw;
 }
 

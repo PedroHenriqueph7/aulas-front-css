@@ -122,3 +122,61 @@ Class e ID
 
     id: usada para identificar um único
     elemento de forma única na página.
+
+{FlexBox}
+
+Flexbox é um modelo de layout que facilita a organização
+de elementos em linha ou coluna, adaptando-se a
+diferentes tamanhos de tela.
+
+ flex-direction: define a direção
+
+row (padrão), column, row-reverse, column-reverse
+
+
+justify-content: alinha os itens no eixo principal
+
+flex-start, center, space-between, space-around,
+space-evenly
+
+
+ align-items: alinha os itens no eixo cruzado
+
+stretch (padrão), center, flex-start, flex-end
+
+
+flex-wrap: define se os itens quebram para novas linhas
+
+ nowrap (padrão), wrap, wrap-reverse
+
+1-  No elemento pai (container), ativamos o Flexbox:
+
+2- Depois, aplicamos as propriedades para alinhar os filhos.
+
+Conteúdo complementar: 
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+{FlexBox Itens}
+
+Order: Define a ordem de exibição dos itens.
+
+
+Flex-Grow:  Controla quanto o item pode crescer para
+ocupar o espaço livre.
+
+
+Flex-Shrink: Controla quanto o item pode encolher quando
+não há espaço suficiente.
+
+
+flex-basis: Define o tamanho inicial do item antes de
+distribuir o espaço.
+
+
+Gap: Define o espaço entre os itens dentro do container
+flex.
+
+
+Align-Self: Permite alinhar individualmente um item na
+vertical.
